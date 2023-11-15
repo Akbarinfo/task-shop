@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "name": "Белый Boncai",
+    "image": "/images/product/proMen1.png",
+    "price": "32000",
+    "type": "new"
+  },
+  {
+    "id": 2,
+    "name": "Белый Plade",
+    "image": "/images/product/proMen2.png",
+    "price": "29000",
+    "type": ""
+  },
+  {
+    "id": 3,
+    "name": "Белый Deta Plade",
+    "image": "/images/product/proMen3.png",
+    "price": "51000",
+    "type": "new"
+  },
+  {
+    "id": 4,
+    "name": "Чёрный North Face",
+    "image": "/images/product/proMen4.png",
+    "price": "34000",
+    "type": ""
+  },
+  {
+    "id": 5,
+    "name": "Чёрный Plain Godzilla",
+    "image": "/images/product/proMen5.png",
+    "price": "44000",
+    "type": ""
+  },
+  {
+    "id": 6,
+    "name": "Чёрный Plain Sharky",
+    "image": "/images/product/proMen6.png",
+    "price": "55000",
+    "type": "new"
+  }
+]

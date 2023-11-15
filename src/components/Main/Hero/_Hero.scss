@@ -1,0 +1,55 @@
+.hero {
+  padding: 50px 0;
+
+  &__wrapper {
+    display: flex;
+
+    width: 100%;
+    overflow: hidden;
+    border-radius: 50px;
+    background-color: rgba(239, 240, 242, 1);
+  }
+
+  &__imgbox {
+    width: 100%;
+    max-width: 320px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+  }
+
+  &__box {
+    padding: 20px 85px;
+  }
+  &__title {
+    color: #000;
+    font-size: 50px;
+    line-height: 69px;
+    text-align: center;
+    margin-bottom: 30px;
+    letter-spacing: 0.02em;
+  }
+
+  &__text {
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    margin-bottom: 10px;
+  }
+
+  &__link {
+    display: flex;
+    align-items: center;
+    float: right;
+    color: #33caff;
+    font-size: 16px;
+    line-height: 135%;
+    letter-spacing: 0.02em;
+    text-decoration: underline;
+
+    svg {
+      font-size: 22px;
+      margin-left: 10px;
+    }
+  }
+}

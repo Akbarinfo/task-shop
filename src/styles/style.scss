@@ -1,0 +1,79 @@
+@import "./libs/fonts";
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+a,
+button {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+/* ======== COLORS ======== */
+@import "./libs/colors";
+
+body {
+  min-height: 100vh;
+  font-size: 16px;
+  font-weight: 400;
+  overflow-x: hidden;
+  background-color: #fff;
+  font-family: "Inter", sans-serif;
+  -webkit-tap-highlight-color: transparent;
+}
+
+main {
+  flex-grow: 1;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.container {
+  max-width: 90%;
+  width: 1200px;
+  margin: 0 auto;
+}
+
+button {
+  width: auto;
+  border: none;
+  cursor: pointer;
+  background: transparent;
+  transition: all 0.4s ease;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+  transition: all 0.4s ease;
+}
+
+/* ======== ASSISTANT ======== */
+@import "./libs/veriables";
+@import "./libs/mixins";
+
+/* ======== COMPONENTS ======== */
+@import "../components/Header/Header";
+@import "../components/Header/HeaderSearch/HeaderSearch";
+@import "../components/Main/Hero/Hero";
+@import "../components/Main/Product/Product";
+@import "../pages/ProductItem/ProductItem";

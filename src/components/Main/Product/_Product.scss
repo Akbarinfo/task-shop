@@ -1,0 +1,168 @@
+.product {
+  padding-bottom: 50px;
+
+  &__header {
+    gap: 40px;
+    display: flex;
+    padding: 0 60px;
+    align-items: center;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #000;
+  }
+
+  &__header-btn {
+    color: #000;
+    font-size: 16px;
+    line-height: 125%;
+    margin-bottom: 12px;
+  }
+
+  &__header-btnActive {
+    color: #33caff;
+  }
+
+  &__header-slug {
+    font-size: 10px;
+    color: #949494;
+    line-height: 12px;
+    margin-bottom: 15px;
+  }
+
+  &__titlebox {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    justify-content: space-between;
+  }
+
+  &__title {
+    color: #000;
+    font-size: 30px;
+    line-height: 125%;
+  }
+
+  &__selectbox {
+    display: flex;
+    align-items: center;
+
+    p {
+      font-size: 20px;
+      color: #949494;
+      line-height: 125%;
+      margin-right: 20px;
+    }
+  }
+
+  &__select {
+    outline: none;
+    padding: 8px 10px;
+    border-radius: 15px;
+    background-color: #fff;
+    border: 1px solid #000;
+  }
+
+  &__list {
+    gap: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+
+  &__item {
+    overflow: hidden;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+  }
+
+  &__wrapper {
+    padding: 13px;
+    background-color: #d9d9d9;
+  }
+
+  &__imgbox {
+    padding: 13px 10px;
+    background-color: #898989;
+  }
+
+  &__item-box {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    padding-bottom: 12px;
+    justify-content: space-between;
+    border-bottom: 1px solid #00000040;
+  }
+
+  &__item-name {
+    color: #000;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+  }
+
+  &__item-price {
+    font-size: 16px;
+    font-weight: 500;
+    color: #ff0000;
+    line-height: 19px;
+
+    span {
+      color: #000;
+      margin-left: 5px;
+    }
+  }
+
+  &__bottombox {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &__btnbox {
+    gap: 15px;
+    display: flex;
+    button {
+      color: #000;
+      font-size: 26px;
+
+      &:hover {
+        color: #33caff;
+
+        path {
+          fill: #33caff;
+        }
+      }
+    }
+  }
+
+  &__icon {
+    width: 30px;
+    height: 28px;
+    path {
+      fill: #000;
+      transition: all 0.4s ease;
+    }
+  }
+
+  &__icon-active {
+    path {
+      fill: #ff0000;   
+    }
+  }
+
+  &__btn {
+    color: #fff;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 6px 8px;
+    line-height: 18px;
+    border-radius: 20px;
+    border: 1px solid #33caff;
+    background-color: #33caff;
+
+    &:hover {
+      color: #33caff;
+      background-color: transparent;
+    }
+  }
+}
