@@ -38,7 +38,9 @@ export default function Header({}: Props) {
           <div className="header__box">
             <Link to={"/"} className="header__heart">
               <HeartIcons text="header__icon" />
-              <span>{context.heartShop.length}</span>
+              <span>
+                {context.heartShop.length != 0 && context.heartShop.length}
+              </span>
             </Link>
             <Link to={"/"} className="header__heart">
               <UserIcons />
